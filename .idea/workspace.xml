@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0fc17289-491f-48fc-9e60-a41a0f9f5c42" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/OrderManagement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order management task.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/AddressTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Order/OrderBuilderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Order/OrderReceipt/JsonReceiptFormatterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Order/OrderReceipt/XmlReceiptFormatterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Order/OrderStatus/AcceptStatusHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Order/OrderStatus/CancelledStatusHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Order/OrderStatus/DeliveringStatusHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Order/OrderStatus/PendingStatusHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Order/OrderStatus/ProcessingStatusHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Order/OrderStatus/ReceivedStatusHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Order/OrderStatus/RejectedStatusHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Order/OrderStatus/ReturnedStatusHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Order/OrderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/ProductsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Shipping/ShippingAramexTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Shipping/ShippingFedexTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Shipping/ShippingFetcherTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Shipping/ShippingTaxCalculatorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/UserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Address.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/OrderBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/OrderReceipt/JsonReceiptFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/OrderReceipt/ReceiptFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/OrderReceipt/TestReceiptFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/OrderReceipt/XmlReceiptFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/OrderStatus/AcceptStatusHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/OrderStatus/CancelledStatusHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/OrderStatus/DeliveringStatusHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/OrderStatus/OrderStatusHandlerFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/OrderStatus/OrderStatusHandlerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/OrderStatus/PendingStatusHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/OrderStatus/ProcessingStatusHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/OrderStatus/ReceivedStatusHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/OrderStatus/RejectedStatusHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order/OrderStatus/ReturnedStatusHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipping/Shipping.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipping/ShippingTaxCalculator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shipping/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Order/Order.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2VG0xlXIVaUh8ArwVTMLCygijYa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/Projects/OrderManagement/Tests/Shipping&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Projects\OrderManagement\Tests\Shipping" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Projects\OrderManagement\src\Order" />
+      <recent name="C:\xampp\htdocs\Projects\OrderManagement\Tests\Shipping" />
+      <recent name="C:\xampp\htdocs\Projects\OrderManagement\Tests\Order" />
+      <recent name="C:\xampp\htdocs\Projects\OrderManagement\Tests\Order\OrderStatus" />
+      <recent name="C:\xampp\htdocs\Projects\OrderManagement\old" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.OrderTest.testOrderHaveReceipt">
+    <configuration name="OrderTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\OrderTest" file="$PROJECT_DIR$/Tests/Order/OrderTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="OrderTest.testOrderHaveReceipt" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\OrderTest" file="$PROJECT_DIR$/Tests/Order/OrderTest.php" method="testOrderHaveReceipt" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.OrderTest" />
+        <item itemvalue="PHPUnit.OrderTest.testOrderHaveReceipt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fc17289-491f-48fc-9e60-a41a0f9f5c42" name="Changes" comment="" />
+      <created>1694447358082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694447358082</updated>
+      <workItem from="1694447359398" duration="6400000" />
+      <workItem from="1694490626281" duration="17230000" />
+      <workItem from="1694508508693" duration="23697000" />
+      <workItem from="1694557204588" duration="1976000" />
+      <workItem from="1694593127930" duration="6380000" />
+      <workItem from="1694605781924" duration="36289000" />
+      <workItem from="1694679896200" duration="1652000" />
+      <workItem from="1694777926330" duration="2750000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Order/OrderStatus/AcceptStatusHandler.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

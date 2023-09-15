@@ -1,0 +1,27 @@
+{
+    "name": "reham/order-management",
+    "description": "Manage Orders",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Reham Hesham",
+            "email": "rehamhesham680@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.3",
+        "phpstan/phpstan": "^1.10"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}

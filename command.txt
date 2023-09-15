@@ -1,0 +1,29 @@
+For Test
+composer require --dev phpunit/phpunit
+To Run Test Local:
+ ./vendor/bin/phpunit Tests
+OR
+ php  ./vendor/bin/phpunit
+
+-------------------------------------
+
+For Docker:
+Use docker-compose command to run the docker
+
+ docker-compose build
+
+ docker-compose up
+ docker-compose up -d  # Start the container in detached mode
+ docker-compose up -d --build
+
+ docker-compose run web
+
+or Use docker  command
+ docker run -d ordermanagement-web ./vendor/bin/phpunit
+ docker run -it ordermanagement-web ./vendor/bin/phpunit
+
+------------------------------------
+
+For code analysis:
+ composer require --dev phpstan/phpstan
+ vendor/bin/phpstan analyse src Tests
