@@ -1,6 +1,7 @@
 {
     "name": "reham/order-management",
     "description": "Manage Orders",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Src\\": "src/"
